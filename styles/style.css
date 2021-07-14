@@ -77,7 +77,30 @@ a{
     margin-top: 10px;  
 }
 
+/* Bonus part Css Style  */
 
+.bonus-section{
+    background-color: #D70F64;
+    color: white;
+ 
+}
+.messi {
+    width: 130px;
+    height: 195px;
+    position: relative;
+    display: inline-block;
+    margin: 50px;
+}
+.messi .messi-happy {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.messi:hover .messi-happy {
+    display: inline;
+}
 
 
 /* Footer part style  */
